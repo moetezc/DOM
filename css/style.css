@@ -1,0 +1,87 @@
+body{
+  background-color: aqua;
+}
+
+nav ul li a:hover {
+  background-color: rgb(114, 114, 114);
+  color: whitesmoke;
+}
+.cart ion-icon{
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.cart a {
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px ;
+  background-color: white;
+}
+.image{
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-left: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.add-cart{
+  position: absolute;
+  width: 100% ;
+  background-color: darkgrey;
+  transition : all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+.image:hover .cart1, .image:hover .cart2, .image:hover .cart3, .image:hover .cart4{
+bottom: 50px;
+opacity: 1;
+padding: 10px;
+text-decoration: none;
+}
+/* begining shopping cart page*/
+.total{
+  text-align: center;
+  background-color: rgb(9, 255, 255);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+.product{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.fa-times-circle{
+  color : red;
+}
+.fa-times-circle:hover{
+  color: whitesmoke;
+  background-color: red;
+}
+.fa-gratipay:hover{
+  color: whitesmoke;
+  background-color: red;
+}
+li {
+  list-style: none;
+}
+.shop{
+  margin: 26px auto;
+  width: 95%;
+  top : 11px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.red{
+  color: red;
+}
